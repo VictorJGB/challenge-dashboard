@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+
+  font-family: "Inter", sans-serif;
+}
+
+.grid {
+  display: grid;
+}
+
+#app {
+  background-color: #292738;
+
+  grid-template-columns: max-content max-content max-content;
+  column-gap: 3.2rem;
+  row-gap: 5.9rem;
+
+  width: 100vw;
+  height: 100vh;
+
+  padding: 11.2rem 12.2rem;
+}
+
+.box {
+  padding: 2.9rem 4.8rem;
+  background: #363447;
+  box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.6rem;
+
+  color: #fff;
+}
+
+.box:nth-child(4) {
+  grid-column: 1/4;
+}
+
+.nps {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+
+  width: 29.6rem;
+
+  gap: 3.2rem;
+
+  text-align: center;
+}
+
+.nps .middle {
+  height: 19.7rem;
+  place-content: center;
+  justify-items: center;
+
+  gap: 1.6rem;
+
+  color: #81fbb8;
+}
